@@ -81,7 +81,7 @@ This project involves building a data pipeline to collect weather data from the 
 
 ### This interface provides a comprehensive view of the pipeline's execution and allows you to troubleshoot or analyze the performance of each component.
 
-   ![image](https://github.com/MouhibMoughtanim/Continuous-Training-Pipeline-with-Apache-Airflow-and-Streamlit/assets/101598112/39a8b171-6db8-41be-92fc-aa11a1e8d157)
+![image](https://github.com/MouhibMoughtanim/Continuous-Training-Pipeline-with-Apache-Airflow-and-Streamlit/assets/101598112/86b2c5ac-ac59-42fe-a6c4-6ed633aa2d38)
 
 
 ## Contributors
