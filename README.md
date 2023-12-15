@@ -17,10 +17,16 @@ This project involves building a data pipeline to collect weather data from the 
    git clone https://github.com/your-username/openweathermap-data-pipeline.git
    ```
 
-2. Install required dependencies:
+2. Navigate to the Project Directory::
 
    ```bash
-   docker compose up 
+   cd openweathermap-data-pipeline
+   ```
+
+3. Start Docker Containers:
+
+   ```bash
+   docker compose up
    ```
    ### Upon successful execution, the containers will be launched. Here is the expected outcome:
    
@@ -28,22 +34,35 @@ This project involves building a data pipeline to collect weather data from the 
 
 
 4. Access the Airflow UI at `http://localhost:8080` and trigger the DAG.
+   
 
-   - After triggering the DAG, you can monitor the progression of our pipeline by navigating to the Apache Airflow UI. Follow these steps:
 
-   - Access the Airflow UI at http://localhost:8080 in your web browser.
 
-   - Log in with the appropriate credentials.
+## Monitoring the Pipeline Progression
 
-   - In the Airflow UI, locate the DAG related to your project (e.g., openweathermap_data_pipeline).
+1. **Access the Airflow UI:**
+   - Open your web browser and go to [http://localhost:8080](http://localhost:8080).
 
-   - Click on the DAG to view its details.
+2. **Login:**
+   - Log in with the following credentials:
+        - Username: airflow
+        - Password: airflow
+3. **Locate the DAG:**
+   - In the Airflow UI, find the DAG associated with your project (e.g., `openweathermap_data_pipeline`).
 
-   - You'll find information such as the status of each task, execution times, and any logs generated during the process.
+4. **View DAG Details:**
+   - Click on the DAG to access detailed information.
 
-   - To monitor the evolution of the pipeline, observe the flow of tasks and check for any errors or successful completions.
+5. **Check Task Status and Execution Times:**
+   - Within the DAG details, observe the status of each task, their execution times, and any generated logs.
 
-   - Additionally, you can inspect individual task logs and outputs for more detailed information.
+6. **Monitor Pipeline Evolution:**
+   - Keep track of the flow of tasks to monitor the overall progression of the pipeline.
+
+7. **Inspect Task Logs and Outputs:**
+   - For more in-depth information, you can inspect individual task logs and outputs.
+
+
 
 ### This interface provides a comprehensive view of the pipeline's execution and allows you to troubleshoot or analyze the performance of each component.
 
