@@ -23,7 +23,22 @@ This project involves building a data pipeline to collect weather data from the 
    cd openweathermap-data-pipeline
    ```
 
-3. Start Docker Containers:
+3. Ensure the creation of the specified directories with the following purposes:
+
+- `./dags`: Reserved for DAG files.
+- `./logs`: Holds logs generated during task execution and scheduler operations.
+- `./config`: Intended for custom log parser inclusion or the addition of `airflow_local_settings.py` to configure cluster policy.
+- `./plugins`: Designated for the storage of custom plugins.
+
+   ```bash
+      mkdir dags
+      mkdir logs
+      mkdir plugins
+      mkdir config
+   ```
+  - This directories in the container are mounted, which means that their contents are synchronized between your computer and the container.
+
+4. Start Docker Containers:
 
    ```bash
    docker compose up
