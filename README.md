@@ -45,7 +45,7 @@ This project involves building a data pipeline to collect weather data from the 
    ```
    ### Upon successful execution, the containers will be launched. Here is the expected outcome:
    
-   ![image](https://github.com/MouhibMoughtanim/Continuous-Training-Pipeline-with-Apache-Airflow-and-Streamlit/assets/101598112/a6d19f17-0998-489f-a0fe-d92461972abc)
+![image](https://github.com/MouhibMoughtanim/Continuous-Training-Pipeline-with-Apache-Airflow-and-Streamlit/assets/101598112/d46d1db1-c252-4a75-8f5b-5cf3caf32ed6)
 
 
 4. Access the Airflow UI at `http://localhost:8080` and trigger the DAG.
