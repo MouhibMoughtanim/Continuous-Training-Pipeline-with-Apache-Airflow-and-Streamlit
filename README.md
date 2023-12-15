@@ -25,7 +25,7 @@ This project involves building a data pipeline to collect weather data from the 
 
 3. Ensure the creation of the specified directories with the following purposes:
 
-- `./dags`: Reserved for DAG files.
+- `./dags`: Dedicated to DAG files, this directory already exists in the repository, so there is no need to create it.
 - `./logs`: Holds logs generated during task execution and scheduler operations.
 - `./config`: Intended for custom log parser inclusion or the addition of `airflow_local_settings.py` to configure cluster policy.
 - `./plugins`: Designated for the storage of custom plugins.
