@@ -29,21 +29,21 @@ This project involves building a data pipeline to collect weather data from the 
 
 4. Access the Airflow UI at `http://localhost:8080` and trigger the DAG.
 
-   After triggering the DAG, you can monitor the progression of our pipeline by navigating to the Apache Airflow UI. Follow these steps:
+   - After triggering the DAG, you can monitor the progression of our pipeline by navigating to the Apache Airflow UI. Follow these steps:
 
-    Access the Airflow UI at http://localhost:8080 in your web browser.
+   - Access the Airflow UI at http://localhost:8080 in your web browser.
 
-    Log in with the appropriate credentials.
+   - Log in with the appropriate credentials.
 
-    In the Airflow UI, locate the DAG related to your project (e.g., openweathermap_data_pipeline).
+   - In the Airflow UI, locate the DAG related to your project (e.g., openweathermap_data_pipeline).
 
-    Click on the DAG to view its details.
+   - Click on the DAG to view its details.
 
-    You'll find information such as the status of each task, execution times, and any logs generated during the process.
+   - You'll find information such as the status of each task, execution times, and any logs generated during the process.
 
-    To monitor the evolution of the pipeline, observe the flow of tasks and check for any errors or successful completions.
+   - To monitor the evolution of the pipeline, observe the flow of tasks and check for any errors or successful completions.
 
-    Additionally, you can inspect individual task logs and outputs for more detailed information.
+   - Additionally, you can inspect individual task logs and outputs for more detailed information.
 
 ### This interface provides a comprehensive view of the pipeline's execution and allows you to troubleshoot or analyze the performance of each component.
 
