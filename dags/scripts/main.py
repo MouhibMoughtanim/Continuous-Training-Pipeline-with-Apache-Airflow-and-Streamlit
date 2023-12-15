@@ -7,7 +7,7 @@ from datetime import datetime
 api_key = '2a258b2fa442fb8d6f8be3014c88c57a'
 endpoint = 'https://api.openweathermap.org/data/2.5/forecast'
 
-existing_data = pd.read_csv('/opt/airflow/dags/scripts/Weather_Data.csv')
+existing_data = pd.read_csv('/opt/airflow/dags/scripts/dataset/Weather_Data.csv')
 existing_data['Date'] = pd.to_datetime(existing_data['Date'], errors='coerce')
 
 cities = [
@@ -84,6 +84,6 @@ for city in cities:
     new_data_df = pd.DataFrame(new_data_list)
 
     if not new_data_df.empty:
-        new_data_df.to_csv(os.path.abspath('/opt/airflow/dags/scripts/Weather_Data.csv'), index=False, mode='a', header=False)
+        new_data_df.to_csv(os.path.abspath('/opt/airflow/dags/scripts/dataset/Weather_Data.csv'), index=False, mode='a', header=False)
     else:
         print("No new data to add.")

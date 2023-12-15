@@ -16,7 +16,7 @@ import pickle
 # Load your dataset
 # Assuming 'Weather_Data.csv' is the name of your CSV file and 'Description' is the name of your target column
 # data = pd.read_csv("/opt/airflow/dags/scripts/Weather_Data.csv")
-data = pd.read_csv("/opt/airflow/dags/scripts/Weather_Data.csv")
+data = pd.read_csv("/opt/airflow/dags/scripts/dataset/Weather_Data.csv")
 
 
 # Drop unnecessary columns
