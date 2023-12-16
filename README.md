@@ -13,8 +13,22 @@ This project involves building a data pipeline to collect weather data from the 
 
 1. Clone this repository:
 
+   
+   ```bash
+   
+   git clone https://github.com/MouhibMoughtanim/Continuous-Training-Pipeline-with-Apache-Airflow-and-Streamlit
+   
+  ```
+
+
 2. Navigate to the Project Directory:
 
+
+   ```bash
+
+    cd openweathermap-data-pipeline
+
+   ```
 
 3. Ensure the creation of the specified directories with the following purposes:
 
